@@ -1,4 +1,14 @@
-		CSCE 3600 Major Assignment 2
+		CSCE 3600 Synchronized Sockets
+Design Overview
+-----------------------------------------------------------------------
+ The program design consists of values being parsed into the main and handles 
+ accordingly. Both client addresses and census sum is handled with global 
+ variables. Strings that are created by the client are sent to the server to 
+ be added to the sum and thent sent back to the client. The deisgn was fairly 
+ simple since all we had to do was send and recieve messages between client/server 
+ and client/client. The client side was a bit more difficult as we not only needed 
+ to send and recieve messages, but also keep track of the CPU % and make sure it 
+ does not reach a threshold specified.
 
 Description:
 -----------------------------------------------------------------------
@@ -45,15 +55,4 @@ Instructions
  Unzip files
  Use compilation instructions
  enter " 0 " to exit.
-
-Design Overview
------------------------------------------------------------------------
- The program design consists of values being parsed into the main and handles 
- accordingly. Both client addresses and census sum is handled with global 
- variables. Strings that are created by the client are sent to the server to 
- be added to the sum and thent sent back to the client. The deisgn was fairly 
- simple since all we had to do was send and recieve messages between client/server 
- and client/client. The client side was a bit more difficult as we not only needed 
- to send and recieve messages, but also keep track of the CPU % and make sure it 
- does not reach a threshold specified.
 
